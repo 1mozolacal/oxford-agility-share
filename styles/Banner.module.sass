@@ -1,0 +1,14 @@
+@import "./mixins.sass"
+
+header.masthead
+    padding-top: 10rem
+    padding-bottom: calc(10rem - 56px)
+    background-image: url('../public/header.jpg')
+    background-position: center center
+    background-color: #000
+    height: 100vh
+    @include background-cover()
+
+.midpic
+    margin-left: auto
+    margin-right: auto
